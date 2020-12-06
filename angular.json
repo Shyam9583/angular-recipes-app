@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap-css-only/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -87,8 +88,7 @@
               "src/assets"
             ],
             "styles": [
-              "node_modules/bootstrap-css-only/css/bootstrap.css",
-              "node_modules/bootstrap-css-only/css/bootstrap-theme.css",
+              "node_modules/bootstrap-css-only/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []

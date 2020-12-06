@@ -1,0 +1,43 @@
+<div class="row">
+  <div class="col-xs-12">
+    <img
+      alt="imagePath"
+      class="img-responsive"
+      src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/6/28/0/FNK_Apple-Pie_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382545039107.jpeg"
+      style="max-height: 200px;">
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <h1>Apple Pie</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <div class="btn-group">
+      <button (click)="toggleButton()" class="btn btn-primary dropdown-toggle">
+        Manage Recipe <span class="caret"></span>
+      </button>
+      <ul [class.open]="isButtonToggled" class="dropdown-menu">
+        <li><a href="#">To Shopping List</a></li>
+        <li><a href="#">Edit Recipe</a></li>
+        <li><a href="#">Delete Recipe</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<br>
+<div class="row">
+  <div class="col-xs-12">
+    <p>A simple apple pie recipe for quick morning</p>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <h4>Ingredients: </h4>
+    <ol>
+      <li>Apple</li>
+      <li>Dough</li>
+    </ol>
+  </div>
+</div>
